@@ -406,7 +406,6 @@ color: var(--secondary-text-color);
 .team-section {
   padding-top: 94px;
   padding-bottom: 94px;
-  max-width: 1600px;
   background-color: var(--secondary-bg-color);
 }
 
@@ -642,8 +641,6 @@ margin-bottom: 9px;
 }
 
 .join-section {
-  /* margin-top: 72px;
-  margin-bottom: 100px; */
   padding-top: 12px;
   padding-bottom: 40px;
   margin-right: 90px;
