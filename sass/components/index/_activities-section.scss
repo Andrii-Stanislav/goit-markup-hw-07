@@ -30,15 +30,15 @@
         }
 
         &:nth-child(1)::before {
-          background-image: url(../../../images/whot-we-do/desktop-app.jpg);
+          background-image: url(../../images/whot-we-do/desktop-app.jpg);
         }
           
         &:nth-child(2)::before {
-          background-image: url(../../../images/whot-we-do/mobile-app.jpg);
+          background-image: url(../../images/whot-we-do/mobile-app.jpg);
         }
           
         &:nth-child(3)::before {
-          background-image: url(../../../images/whot-we-do/design.jpg);
+          background-image: url(../../images/whot-we-do/design.jpg);
         }
           
         &:not(:last-child) {
