@@ -338,7 +338,7 @@ background-color: var(--accent-color);
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-color: var(--secondary-text-color);
+  color: var(--secondary-text-color);
 }
 
 .activities-list {
@@ -844,9 +844,7 @@ color: var(--secondary-text-color);
   left: 42px;
 }
 
-.input-text, 
-.input-tel, 
-.input-mail {
+.input-modal {
 display: block;
 width: 100%;
 height: 40px;
@@ -921,23 +919,21 @@ transition: 250ms border-color cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms fill cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.input-text:focus ~ .modal-icon-text,
-.input-tel:focus ~ .modal-icon-tel,
-.input-mail:focus ~ .modal-icon-mail {
+.input-modal:focus ~ .modal-icon-text,
+.input-modal:focus ~ .modal-icon-tel,
+.input-modal:focus ~ .modal-icon-mail {
   fill: var(--accent-color);
 }
 
-.input-text:focus + .label-text,
-.input-tel:focus + .label-tel,
-.input-mail:focus + .label-mail {
+.input-modal:focus + .label-text,
+.input-modal:focus + .label-tel,
+.input-modal:focus + .label-mail {
  transform: translate(-20px, -30px);
  font-size: 12px;
  color: var(--accent-color);
 }
 
-.input-text:focus,
-.input-tel:focus,
-.input-mail:focus {
+.input-modal:focus {
   border-color: var(--accent-color);
 }
 
