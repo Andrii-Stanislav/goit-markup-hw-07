@@ -663,15 +663,15 @@ body {
 }
 
 .activities-list-item:nth-child(1)::before {
-  background-image: url(../../../images/whot-we-do/desktop-app.jpg);
+  background-image: url(../../images/whot-we-do/desktop-app.jpg);
 }
 
 .activities-list-item:nth-child(2)::before {
-  background-image: url(../../../images/whot-we-do/mobile-app.jpg);
+  background-image: url(../../images/whot-we-do/mobile-app.jpg);
 }
 
 .activities-list-item:nth-child(3)::before {
-  background-image: url(../../../images/whot-we-do/design.jpg);
+  background-image: url(../../images/whot-we-do/design.jpg);
 }
 
 .activities-list-item:not(:last-child) {
