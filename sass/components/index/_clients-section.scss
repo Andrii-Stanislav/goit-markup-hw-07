@@ -43,8 +43,8 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-icon {
-fill: #AFB1B8;  
-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+ fill: #AFB1B8;  
+ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
     &.first-logo {
         width: 45px;
@@ -76,8 +76,8 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
         height: 46px;
     }
     
-    .clients-list-link:focus &,
-    .clients-list-link:hover &{
+    .clients-list-link:focus > &,
+    .clients-list-link:hover > &{
         fill: $accent-color;
         cursor: pointer;
     }
